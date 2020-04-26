@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css?family=Gloria + Hallelujah");
+.App {
+  text-align: center;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+*:focus {
+  outline: none;
+}
+* {
+  font-family: "Gloria Hallelujah", cursive;
+}
+.line {
+  fill: none;
+  stroke: orange;
+  stroke-width: 3px;
+}
+.line2 {
+  fill: none;
+  stroke: red;
+  stroke-width: 3px;
+}
+.line3 {
+  fill: none;
+  stroke: green;
+  stroke-width: 3px;
+}
+.line4 {
+  fill: none;
+  stroke: blue;
+  stroke-width: 3px;
+}
+.indicator-wrap {
+  display: flex;
+  align-items: center;
+}
+
+polyline {
+  opacity: 0.3;
+  stroke: black;
+  stroke-width: 2px;
+  fill: none;
+}
+
+/* Make the percentage on the text labels bold*/
+.labelName tspan {
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* In biology we generally italicise species names. */
+.labelName {
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+.grid line {
+  stroke: lightgrey;
+  stroke-opacity: 0.7;
+  shape-rendering: crispEdges;
+}
+
+.side-bar {
+  border-right: 1px solid lightgray;
+  background: #3e37ad;
+  padding: 20px;
+  min-height: 100vh;
+}
+.grid path {
+  stroke-width: 0;
+}
+.App-header {
+  min-height: 100vh;
+}
+.chart-wrap {
+  padding: 20px;
+  min-height: 100vh;
+}
+.grid-wrap {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.heading {
+  font-weight: bold;
+  border-bottom: 1.5px dashed #e6b458;
+  padding-bottom: 10px;
+  width: 100%;
+  text-transform: capitalize;
+}
+.country-select-wrap {
+  width: 100%;
+}
+.color-indicater {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+.container {
+  padding: 0 25%;
+}
+.virus {
+  width: auto;
+  height: 200px;
+  margin-top: 30%;
+}
+.quote {
+  font-weight: bold;
+  color: white;
+  font-size: 28px;
+}
+.indicator {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+select {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border: none;
+  background: #f3f3f3;
+  color: #483b3b;
+  height: 40px;
+  min-width: 100%;
+  border-radius: 3px;
+}
+#date-select {
+  width: 100%;
+}
+.buttons-wrap {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.align-left {
+  text-align: left;
+  color: white;
+}
+.active {
+  color: white;
+  background: black;
+}
+button {
+  border: none;
+  width: 100%;
+  padding: 10px;
+  background: #f3f3f3;
+  color: #483b3b;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 5px 0px;
+  text-transform: capitalize;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.title {
+  font-weight: bold;
+  color: white;
+  text-shadow: 3px 1px 5px rgb(197, 212, 203);
+}
+.todo-item {
+  width: 65%;
+  margin-left: 20px;
+  padding: 0 15px;
+  font-weight: bold;
+  display: inline-block;
+}
+input[type="text"] {
+  height: 30px;
+  width: 65%;
+  border-radius: 3px;
+  border: none;
+  margin-left: 20px;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.02);
+  padding: 0 15px;
+}
+.completed {
+  text-decoration: line-through;
+  color: black;
+}
