@@ -1,13 +1,13 @@
-# TODO
+# COVID19
 
-few steps requires to run this application
+a dashboard to view details about covid19 across the world upto date.
 
 # Steps
 
 1.Clone the application
 
 ```sh
-$ git clone https://github.com/praveenganesh/TODO.git
+https://github.com/praveenganesh/COVID19.git
 ```
 
 2.Install the node modules
@@ -27,17 +27,3 @@ Application will run at
 ```sh
 http://localhost:3000/
 ```
-
-# UNIT TEST
-
-To run the unit test, please use this command
-
-```sh
-$ npm test
-```
-
-```sh
-press a
-```
-
-All the test cases availabe in `App.test.js`
