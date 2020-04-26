@@ -13,6 +13,8 @@ export default function useCasesBiz(props) {
     getCountries();
   }, []);
   useEffect(() => {
+    document.getElementById("multi-bar").innerHTML = "";
+    document.getElementById("pie").innerHTML = "";
     country && getCases();
   }, [country]);
 
