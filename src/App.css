@@ -10,7 +10,7 @@ input:focus {
   outline: none;
 }
 * {
-  font-family: "Gloria Hallelujah", cursive;
+  /* font-family: "Gloria Hallelujah", cursive; */
 }
 .line {
   fill: none;
